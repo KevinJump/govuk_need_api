@@ -38,6 +38,8 @@ group :test do
   gem 'webmock', '1.14.0'
 end
 
-gem 'unicorn'
+gem "thin" 
+
+
 gem 'exception_notification', '2.6.1'
 gem 'whenever', '0.8.4', :require => false
